@@ -74,7 +74,7 @@ std::string FindAddress(const std::list<Employee>& employees, std::string_view n
  * After C++11, the following code is much preferable.
  *
  * 1. Prefer vector over list.
- * 2. Use std::string_view on std::string object.
+ * 2. Use std::string_view on std::string object (C++17).
  * 3. Use range-for for iterating through the entire container.
 */
 

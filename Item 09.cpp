@@ -2,7 +2,7 @@
 #include <cassert>
 #include <cstddef>
 /**
- * Item 08 - Writing Exception-Safe Code - Part 2
+ * Item 09 - Writing Exception-Safe Code - Part 2
  *
  * In each function, take all the code that might emit an exception and do all that work safely off to the side. Only then,
  * when you know that the real work has succeeded, should you modify the program state (and clean up) using only non-throwing

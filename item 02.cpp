@@ -13,7 +13,6 @@
 
 /* -------------------------------------------------------------------------------------------------------------------- */
 
-
 /**
  * 2. Write a ci_string class that is identical to the standard std::string class but that is case-insensitive in the same
  * way as the commonly provided extension stricmp().

@@ -31,16 +31,6 @@ class Stack
 
 };
 
-template <class T>
-Stack<T>::Stack()
-    : m_v { new T[m_size] }, m_size { 10 }, m_used { 0 } { }
-
-template <class T>
-Stack<T>::~Stack()
-{
-    delete[] m_v;
-}
-
 /* -------------------------------------------------------------------------------------------------------------------- */
 
 /**

@@ -36,5 +36,4 @@
  * - Exception-safe copy assignment (To set the values in v_, and if the copy assignment throws, then it must guarantee that
  *   the target object is still a valid T. Note that this is the only T member function that must be exception-safe in order
  *   for our Stack to be exception-safe.)
-
 */

@@ -32,7 +32,7 @@
  * For the template as we've seen it so far, Stack requires its instantiation type to have all of the following:
  * - Default constructor (to construct the v_ buffers)
  * - Copy constructor (if Pop returns by value)
- * - Nonthrowing destructor (to be able to guarantee exception-safety)
+ * - Non-throwing destructor (to be able to guarantee exception-safety)
  * - Exception-safe copy assignment (To set the values in v_, and if the copy assignment throws, then it must guarantee that
  *   the target object is still a valid T. Note that this is the only T member function that must be exception-safe in order
  *   for our Stack to be exception-safe.)

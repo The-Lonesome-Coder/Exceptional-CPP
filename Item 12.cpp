@@ -52,6 +52,13 @@ StackImpl<T>::StackImpl(std::size_t size)
  * The destructor is the easiest of the three functions to implement, with some standard helper functions.
 */
 
+// construct()
+template <class T, class U>
+void construct(T* pointer, const U& value)
+{
+    new (pointer) T(value);
+}
+
 // destroy() destroys an object or a range
 template <class T>
 void destroy(T* pointer)

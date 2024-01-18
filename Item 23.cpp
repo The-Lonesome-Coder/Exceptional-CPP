@@ -9,8 +9,8 @@
  * opaque pointer (a pointer to a declared but undefined class) declared as "struct XxxxImpl; XxxxImpl* m_p_impl;" to store
  * private members.
  *
- * Prefer cohesion. Always endeavor to give each piece of code—each module, each class, each function—a single, well-defined
- * responsibility.
+ * Prefer cohesion. Always endeavor to give each piece of code - each module, each class, each function—a single,
+ * well-defined responsibility.
 */
 
 /* -------------------------------------------------------------------------------------------------------------------- */
